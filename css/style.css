@@ -1,0 +1,181 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #6a1b9a;
+}
+
+.logo p {
+    margin: 0;
+    font-size: 14px;
+    color: #999;
+}
+
+nav {
+    font-size: 14px;
+    color: #999;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #f9f9f9;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h2 {
+    font-size: 36px;
+    color: #333;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #666;
+}
+
+.hero-text button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #6a1b9a;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.stat {
+    text-align: center;
+}
+
+.stat img {
+    width: 50px;
+    height: 50px;
+}
+
+.stat p {
+    font-size: 18px;
+    color: #333;
+}
+
+.events {
+    padding: 50px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.events h2 {
+    font-size: 36px;
+    color: #333;
+}
+
+.events p {
+    font-size: 18px;
+    color: #666;
+}
+
+.event-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.event-card {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    width: 45%;
+    text-align: left;
+}
+
+.event-card img {
+    width: 100%;
+    height: auto;
+}
+
+.event-card h3 {
+    font-size: 24px;
+    color: #333;
+}
+
+.event-card p {
+    font-size: 16px;
+    color: #666;
+}
+
+.events button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #6a1b9a;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #003366;
+    color: #fff;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact, .social-media {
+    width: 45%;
+}
+
+.contact h2, .social-media h2 {
+    font-size: 24px;
+}
+
+.contact p, .social-media p {
+    font-size: 16px;
+}

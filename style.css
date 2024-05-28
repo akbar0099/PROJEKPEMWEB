@@ -1,0 +1,63 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+header nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    
+}
+.hero {
+    text-align: left;
+    padding: 50px 20px;
+    animation-direction: normal;
+}
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.hero p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 30px;
+}
+.hero .cta {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #009bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.stats {
+    display: flex;
+    justify-content: right;
+    padding: 20px;
+}
+.stats div {
+    margin: 0 15px;
+    text-align: center;
+
+}
+.stats div img {
+    width: 500px;
+    height: 500px;
+    
+}
